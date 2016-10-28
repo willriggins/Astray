@@ -37,9 +37,7 @@ function generateSquareMaze(dimension) {
 
     // Gnerate the maze recursively.
     field = iterate(field, 1, 1);
-    
+
     return field;
 
 }
-
-
